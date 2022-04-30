@@ -1,0 +1,30 @@
+
+.headerBar{
+    position:fixed;
+    top: 0;
+    left: 0;
+    z-index: 10000;
+    height: 48px;
+    width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menuBarHeight{
+    border-bottom: 0;
+}
+.rightContainer{
+   margin-left: calc(100vh * 0.1)
+}
+.colorDesc{
+    color:  #9199A1;
+}
+.userLogin{
+    color:#4d555d;
+}
+.userLogin:hover {
+    color: #04a2f4;
+    font-weight: 700;
+}
