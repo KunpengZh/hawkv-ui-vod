@@ -6,7 +6,7 @@ module.exports = (phase, { defaultConfig }) => {
     return {
       /* development only config options here */
       reactStrictMode: true,
-      basePath: '/ngvod',
+      // basePath: '/',
       eslint: {
         // Warning: This allows production builds to successfully complete even if
         // your project has ESLint errors.
@@ -27,21 +27,21 @@ module.exports = (phase, { defaultConfig }) => {
   return {
     /* config options for all phases except development here */
     reactStrictMode: true,
-    basePath: '/ngvod',
+    // basePath: '/',
     eslint: {
       // Warning: This allows production builds to successfully complete even if
       // your project has ESLint errors.
       ignoreDuringBuilds: true,
     },
-    async rewrites() {
-      return [
-        {
-          source: '/about',
-          // destination: 'https://hawk-svc-moneta.dal1a.cirrus.ibm.com/userProfile/loadUserProfileList',
-          destination: 'https://localhost:8448/:path*', // Proxy to Backend
-          basePath: false,
-        },
-      ]
-    },
+    // async rewrites() {
+    //   return [
+    //     {
+    //       source: '/about',
+    //       // destination: 'https://hawk-svc-moneta.dal1a.cirrus.ibm.com/userProfile/loadUserProfileList',
+    //       destination: 'https://localhost:8448/:path*', // Proxy to Backend
+    //       basePath: false,
+    //     },
+    //   ]
+    // },
   }
 }

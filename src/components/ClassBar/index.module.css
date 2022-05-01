@@ -1,0 +1,116 @@
+.classBarContainer {
+    width: calc(100vw * 0.9);
+    height: calc(100vh * 0.6);
+    min-height: 460px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 5px 10px rgb(0, 0, 0, 0.2);
+    border-radius: 8px 8px 8px 8px;
+}
+
+.classTop {
+    display: flex;
+    flex-grow: 1;
+    width: 100%;
+    flex-direction: row;
+}
+
+.classBottom {
+    width: 100%;
+    height: 100px;
+    flex-grow: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 50px;
+}
+
+.menuContent {
+    background: #515151;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0;
+    padding: 20px;
+    color: white;
+    width: 40%;
+}
+.menuItems {
+    color: white;
+}
+
+.menuItems :hover {
+    color: #1890ff;
+}
+
+.imageContent {
+    border-top-right-radius: 8px;
+    width: 60%;
+    display: block;
+    height: 100%;
+    padding-left: 2px;
+}
+.carouseContainer {
+    display: block;
+    width: calc(100vw *0.9 * 0.6 - 2px);
+    height: 100%;
+}
+
+.carouse {
+    height: 100%;
+    border-radius: 8px 8px 8px 8px;
+    overflow: hidden;
+}
+
+.carouselBlock1 {
+    background-image: linear-gradient(to bottom right, #FF7F50, #FF5F1F);
+    height: calc(100vh * 0.6 - 100px);
+    min-height: 380px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carouselBlock2 {
+    background-image: linear-gradient(to bottom right, #6495ED, #0F52BA);
+    height: calc(100vh * 0.6 - 100px);
+    min-height: 380px;
+    display: flex;
+}
+
+.carouselBlock3 {
+    background-image: linear-gradient(to bottom right, #0BDA51, #355E3B);
+    height: calc(100vh * 0.6 - 100px);
+    min-height: 380px;
+    align-items: center;
+}
+
+.carouselBlock4 {
+    background-image: linear-gradient(to bottom right, #FFA500, #EC5800);
+    height: calc(100vh * 0.6 - 100px);
+    min-height: 380px;
+    justify-content: center;
+}
+
+.carouselBlock5 {
+    background-image: linear-gradient(to bottom right, #F8F9F9, #58D68D);
+}
+
+.carouselBlock6 {
+    background-image: linear-gradient(to bottom right, #F8F9F9, #58D68D);
+}
+
+.carouselBlock7 {
+    background-image: linear-gradient(to bottom right, #F8F9F9, #58D68D);
+}
+
+.carouselStyle {
+    height: 160px;
+    color: '#fff';
+    line-height: 160px;
+    text-align: center;
+    background: '#364d79';
+}

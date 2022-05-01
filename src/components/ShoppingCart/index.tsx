@@ -8,7 +8,7 @@ export default function ShoppingCart() {
             <div className={`${styles.cartSummary} ${styles.colorDesc}`}>已加入0门课程</div>
         </div>
         <div className={styles.cartBody}>
-            <img src='/ngvod/shoppingcart.svg' height="100px" width="100px" />
+            <img src='/shoppingcart.svg' height="100px" width="100px" />
             <h2 className={styles.colorDesc}>人也匆匆,物也空空</h2>
         </div>
     </div>

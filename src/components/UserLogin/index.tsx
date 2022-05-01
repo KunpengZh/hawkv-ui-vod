@@ -13,18 +13,18 @@ const UserLoginForm = ({ eventHandler }: any) => {
     const onCancelLogin = () => eventHandler({ type: 'onCancelLogin' });
 
     const onFinish = () => {
-
+        eventHandler({ type: 'onCancelLogin' });
     }
     const onFinishFailed = () => {
-
+        eventHandler({ type: 'onCancelLogin' });
     }
     const accountRegistration = () => {
-
+        eventHandler({ type: 'onCancelLogin' });
     }
 
     return <div className={styles.loginContainer}>
         <div className={styles.loginImg}>
-            <img src='/ngvod/hawk.svg' width='60%' />
+            <img src='/hawk.svg' width='60%' />
         </div>
         <div className={styles.loginFormContainer}>
             <Form
@@ -53,8 +53,8 @@ const UserLoginForm = ({ eventHandler }: any) => {
                 <a href='#' onClick={accountRegistration}>没有账号? 马上注册</a>
             </div>
             <Space className={styles.loginBar} size="large">
-                <img src='/ngvod/weichat.svg' width="40px" />
-                <img src='/ngvod/qq.svg' width="40px" />
+                <img src='/weichat.svg' width="40px" />
+                <img src='/qq.svg' width="40px" />
             </Space>
         </div>
 

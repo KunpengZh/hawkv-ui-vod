@@ -14,3 +14,19 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.linerGradient1 {
+  background-image: linear-gradient(to bottom right, #FF7F50, #FF5F1F);
+}
+
+.linerGradient2 {
+  background-image: linear-gradient(to bottom right, #6495ED, #0F52BA);
+}
+
+.linerGradient3 {
+  background-image: linear-gradient(to bottom right, #0BDA51, #355E3B);
+}
+
+.linerGradient4 {
+  background-image: linear-gradient(to bottom right, #FFA500, #EC5800);
+}
